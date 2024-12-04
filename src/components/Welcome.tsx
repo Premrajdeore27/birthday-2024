@@ -37,7 +37,7 @@ const Welcome: React.FC<WelcomeProps> = ({ startCountdown, countdownValue }) => 
             transition={{ duration: 1 }}
             className="welcome-text"
           >
-            Happy Birthday, My Dear ! 🎉🎂
+            Happy Birthday, Dear ! 🎉🎂
           </motion.h1>
           <motion.button
             whileHover={{ scale: 1.1 }}
