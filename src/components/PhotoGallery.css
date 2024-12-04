@@ -1,0 +1,99 @@
+/* PhotoGallery.css */
+
+/* General container styling */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .gallery-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Slider styling */
+  .slick-slider {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  /* Image styling */
+  .photo {
+    width: 98%;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .gallery-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .slick-slider {
+      max-width: 90%; /* Adjust slider width on tablets */
+    }
+  
+    .slick-prev, .slick-next {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .slick-slider {
+      max-width: 100%; /* Use full width for mobile screens */
+    }
+  
+    .slick-prev, .slick-next {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+      font-size: 16px;
+    }
+  
+    .photo {
+      border-radius: 5px; /* Slightly smaller border radius on small screens */
+    }
+  }
+  

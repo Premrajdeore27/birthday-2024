@@ -1,0 +1,19 @@
+.message-container {
+    padding: 20px;
+    background: #fbe7c6;
+    text-align: center;
+    /* min-height: 100vh; */
+  }
+  
+  .message-title {
+    font-size: 2rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+  }
+  
+  .message-text {
+    font-size: 1.2rem;
+    color: #6a1b9a;
+    line-height: 1.6;
+  }
+  
