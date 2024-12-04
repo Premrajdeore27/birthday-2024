@@ -6,7 +6,7 @@ import PhotoGallery from "../components/PhotoGallery";
 const AppRouter: React.FC = () => {
   const [countdownValue, setCountdownValue] = useState(0);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [isCounting, setIsCounting] = useState(false);
+  const [_,setIsCounting] = useState(false);
   console.log(location,"location");
   console.log(countdownValue,"countdownValue");
   const startCountdown = () => {
